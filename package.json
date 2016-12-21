@@ -1,0 +1,14 @@
+{
+  "name": "concat-webpack-vs-rollup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "rollup": "rimraf bundle.js && rollup index.js -o bundle.js -f umd -g angular:angular",
+    "webpack": "webpack"
+  },
+  "devDependencies": {
+    "rollup": "^0.37.2",
+    "webpack": "2.2.0-rc.1"
+  }
+}
